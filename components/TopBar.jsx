@@ -21,8 +21,6 @@ export default function TopBar() {
     <div className="bg-[#14181F] text-white px-4 py-2 flex items-center justify-between text-xs">
       <Link href="/" className="sk-display font-semibold tracking-wide text-sm">Selektor</Link>
       <div className="flex gap-1 bg-white/10 rounded-full p-0.5">
-        <Link href={publicHref} className={tab(isPublic)}>Vista del aspirante</Link>
-        <Link href="/panel" className={tab(isPanel)}>Panel interno</Link>
       </div>
     </div>
   );
